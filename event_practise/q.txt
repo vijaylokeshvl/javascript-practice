@@ -1,0 +1,33 @@
+q1.
+
+Form fields:-
+Name
+Comment
+Submit
+On submit
+
+Create a comment card:-
+Show name in <h4>
+Comment in <p>
+Append below the form
+Clear inputs after submit
+
+💡 Rule: Use preventDefault() (mandatory)
+
+q2.
+
+Form fields:-
+
+Image URL
+Product Name
+Price
+Description
+On submit
+
+Create a product card:-
+Image on top
+Name bold
+Price in green
+Description small text
+
+💡 Same DOM creation style as you already used

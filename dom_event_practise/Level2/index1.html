@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       
+            *{
+                margin : 0;
+                padding: 0;
+                font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            }
+            body{
+                height: 100vh;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 10px;
+                background-color: rgb(154, 235, 235);
+            }
+            button{
+                border-bottom-right-radius: 33px;
+                padding: 10px;
+            }
+            input{
+                padding: 10px;
+                color: solid  rgb(154, 235, 235);
+            }
+            .btn:hover{
+                background-color: aqua;
+            }
+        
+    </style>
+</head>
+<body>
+    <input type="text" placeholder="" disabled>
+    <button class = "btn" data-action="+">+</button>
+    <button class = "btn" data-action="-">-</button>
+    <button class = "btn" data-action="0">=0</button>
+    <script src = "problem1.js"></script>
+</body>
+</html>

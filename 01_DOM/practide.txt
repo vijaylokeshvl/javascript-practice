@@ -1,0 +1,66 @@
+🟢 Level 1: DOM Selection Basics✅✅
+
+Select an element by id and change its text.✅
+
+Select elements by class and make all text uppercase.✅
+
+Select all <p> tags and change their color.✅
+
+Select the first <li> and make it bold.✅
+
+Select the last element in a list and underline it.✅
+
+🟡 Level 2: DOM Content & Attributes
+
+
+Change the src of an image using JavaScript.
+
+Change the href of a link dynamically.
+
+Add a title attribute to a paragraph.
+
+Remove an attribute from an element.
+
+Check whether an element has a specific attribute.
+
+
+🟠 Level 3: DOM Styling (no events)
+
+
+Change multiple CSS styles using style.
+
+Add a CSS class to an element.
+
+Remove a class from an element.
+
+Toggle visibility using display or visibility.
+
+Read and log computed styles of an element.
+
+
+🔵 Level 4: Creating & Modifying Elements
+
+
+Create a new <div> and add text to it.
+
+Append a new <li> to an existing <ul>.
+
+Insert an element before another element.
+
+Replace one element with another.
+
+Remove an element from the DOM.
+
+
+🔴 Level 5: DOM Traversal (important!)
+
+
+Access parent element of a node.
+
+Access all child elements.
+
+Access first and last child.
+
+Access next sibling element.
+
+Access previous sibling element.

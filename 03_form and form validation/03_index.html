@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>document</title>
+    <link rel="stylesheet" href="03_style.css" />
+</head>
+<body>
+
+    <form class="form" id="form">
+        <h2>Login</h2>
+
+        <!-- Email -->
+        <div class="field">
+            <input autocomplete="off" type="email" id="email" placeholder="Email" />
+            <small class="error" id = "emailError"></small>
+        </div>
+
+        <!-- Password -->
+        <div class="field">
+            <input type="password" id="password" placeholder="Password" />
+            <small class="error" id = "passwordError"></small>
+        </div>
+
+        <button type="submit">Submit</button>
+        <div id = "resultMessage"></div> 
+    </form>
+    
+
+    <!-- YOU write JS here -->
+    <script src="03_problem.js"></script>
+</body>
+</html>

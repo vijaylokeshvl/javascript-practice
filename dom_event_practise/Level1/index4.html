@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 100vh;
+            gap: 20px;
+        }
+
+        .btn {
+            padding: 3px;
+            width: 150px;
+            border-radius: 10px;
+            border-bottom-right-radius: 33ch;
+        }
+    </style>
+</head>
+
+<body>
+    <button class="btn" data-action="save">Save</button>
+    <button class="btn" data-action="delete">Delete</button>
+    <button class="btn" data-action="edit">Edit</button>
+
+    <script src="problem4.js"></script>
+</body>
+
+</html>

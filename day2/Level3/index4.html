@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .child{
+            position: absolute;
+            height: 100px;
+            width:100px;
+            background-color: aqua;
+        }
+        .parent{
+            position: absolute;
+            height: 200px;
+            width:200px;
+            background-color: rgb(177, 110, 22);
+        }
+        .Grandparent{
+            position: absolute;
+            height: 400px;
+            width:400px;
+            background-color: rgb(231, 46, 4);
+        }
+    </style>
+</head>
+<body>
+    <div class="Grandparent">
+        <div class="parent">
+            <div class="child"></div>
+        </div>
+    </div>
+    <script src="problem4.js"></script>
+</body>
+</html>

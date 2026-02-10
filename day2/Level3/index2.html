@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .model{
+            display: none;
+            position:fixed;
+            height: 100%;
+            width: 100%;
+            z-index: 1;
+            top : 0;
+            left: 0;
+            background-color: rgb(18, 14, 14,0.5);
+        }
+        .model-content{
+               position: relative;
+               width: 50%;
+               background-color: #fff;
+               margin: 15% auto;
+               border-radius: 8px;
+               padding: 10px;
+        }
+        .close{
+            position: absolute;
+            cursor:pointer;
+            right : 15px;
+            top: 10px;
+            font-size: 24px;
+        }
+    </style>
+</head>
+<body>
+    <button id = "openBtn">popup msg</button>
+    <div id = "myModel" class="model">
+        <div class="model-content">
+            <span class="close">&times;</span>
+            <h1>hey! i am popup msg</h1>
+            <p>click outside to remove the msg</p>
+        </div>
+    </div>
+    <script src="problem10.js"></script>
+</body>
+</html>

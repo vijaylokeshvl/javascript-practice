@@ -1,0 +1,170 @@
+🟢 LEVEL 1 — Core Muscle Memory (must be instant)
+
+Do these without Google.
+
+Create a button.
+On click → change page background color.
+
+Create an input box.
+
+On keyup → show typed text in a <p> tag.
+
+Create a div.
+
+On mouseover → change its color.
+
+On mouseout → revert back.
+
+Create 3 buttons using same class.
+
+Clicking any button logs its text.
+
+Detect which key user pressed on keyboard and show:
+
+You pressed: A
+
+
+📌 If you can’t do this fast → revise basics.
+
+🟡 LEVEL 2 — Real DOM Thinking (this separates learners)
+
+Create a counter
+
++ button increases
+
+- button decreases
+
+Reset button sets to 0
+
+Create a list (ul).
+
+Input + Add button
+
+On click → add new <li>
+
+Click on a list item → delete only that item.
+
+Create a form
+
+Prevent page refresh
+
+Validate:
+
+name not empty
+
+password ≥ 6 chars
+
+Make a box follow mouse cursor (like a mini game character).
+
+📌 This tests event + DOM + logic together.
+
+🔴 LEVEL 3 — Interview / Pro Level (🔥 important)
+
+Event Delegation
+
+One click handler on ul
+
+Clicking li removes it
+👉 (No individual listeners on li)
+
+Create modal popup
+
+Open on button click
+
+Close when clicking outside modal
+
+Create like button
+
+First click → ❤️
+
+Second click → 🤍
+
+(toggle using same button)
+
+Stop event bubbling
+
+Button inside div
+
+Clicking button should NOT trigger div click
+
+Throttle or debounce a scroll event (basic logic only).
+
+📌 If you can do 11 & 14 confidently → you’re above average.
+
+🧠 30-DAY REVISION TRIGGER (VERY IMPORTANT)
+
+After 30 days, ask yourself these without coding:
+
+Answer in words first.
+
+Difference between:
+
+onclick vs addEventListener
+
+What is:
+
+event object?
+
+e.target vs e.currentTarget
+
+What is:
+
+event bubbling?
+
+capturing?
+
+Why event delegation is powerful?
+
+When to use:
+
+keydown
+
+keyup
+
+keypress ❌ (deprecated)
+
+If you can explain, you’ll automatically code.
+
+🚀 How I want you to practice (no BS advice)
+
+Write HTML + JS on paper first
+
+Then code
+
+Then break it on purpose and fix it
+
+No tutorials for these questions
+
+If you want:
+
+I can give solutions one by one
+
+Or turn this into a 7-day DOM challenge
+
+Or give mock interview DOM questions
+
+Just say the word 👊
+
+ok if i practise these 15q then then whenever i revise its benificial
+
+Short answer: YES — 100% beneficial.
+Real answer (no sugar-coating): if you do it the right way, this alone can carry your DOM confidence for months.
+
+Let me explain why 👇
+
+🧠 Why these 15 questions are actually enough
+
+These 15 aren’t random. Together they cover:
+
+✅ All core DOM events (click, key, mouse, submit)
+
+✅ Event object mastery (e, target, currentTarget)
+
+✅ State handling (counter, toggle, like button)
+
+✅ Real-world patterns (forms, lists, modals)
+
+✅ Interview favorites (bubbling, delegation, preventDefault)
+
+If you can do these from scratch:
+👉 90% DOM event problems become easy

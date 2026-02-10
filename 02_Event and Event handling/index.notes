@@ -1,0 +1,14 @@
+jab bhi aap click karte ho ya koi bhi evenet raise krte ho to aapka jo event flow do phase me chalate he:
+
+phase1: event top level element se neeche ki taraf aayega
+phase 2: event raised element se parent ki taraf jaayega
+
+aur pahle phase 1 hoti hai
+
+-> humesha phase 1 hi pahle hoti hai par vo default off rahthi hai, agar use on kar dein to pahle phase 1
+ka answer milea
+
+pahle capture phase chalta he 
+fir bubbling phase chalta he 
+
+0
