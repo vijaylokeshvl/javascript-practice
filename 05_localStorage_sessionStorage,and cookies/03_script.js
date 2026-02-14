@@ -6,3 +6,5 @@ jab  local storage se data wapas nikalthe he to string mita he */
 
 
 // localStorage.setItem("friends", JSON.stringify(["akash","harsh","amit"])) //isses string niklega
+let fr = JSON.parse(localStorage.getItem("friends"));
+console.log(fr);
